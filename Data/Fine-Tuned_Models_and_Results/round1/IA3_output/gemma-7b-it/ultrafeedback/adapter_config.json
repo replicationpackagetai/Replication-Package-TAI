@@ -1,0 +1,19 @@
+{
+  "auto_mapping": null,
+  "base_model_name_or_path": "google/gemma-7b-it",
+  "fan_in_fan_out": false,
+  "feedforward_modules": [
+    "down_proj"
+  ],
+  "inference_mode": true,
+  "init_ia3_weights": true,
+  "modules_to_save": null,
+  "peft_type": "IA3",
+  "revision": null,
+  "target_modules": [
+    "q_proj",
+    "v_proj",
+    "down_proj"
+  ],
+  "task_type": "CAUSAL_LM"
+}

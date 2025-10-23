@@ -1,0 +1,171 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 0.9972117434804002,
+  "eval_steps": 500,
+  "global_step": 95,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.05,
+      "grad_norm": 5.394964218139648,
+      "learning_rate": 1.9863613034027224e-05,
+      "loss": 4.6257,
+      "step": 5
+    },
+    {
+      "epoch": 0.1,
+      "grad_norm": 4.088798999786377,
+      "learning_rate": 1.9458172417006347e-05,
+      "loss": 3.5915,
+      "step": 10
+    },
+    {
+      "epoch": 0.16,
+      "grad_norm": 3.9799270629882812,
+      "learning_rate": 1.879473751206489e-05,
+      "loss": 3.1357,
+      "step": 15
+    },
+    {
+      "epoch": 0.21,
+      "grad_norm": 2.5487585067749023,
+      "learning_rate": 1.789140509396394e-05,
+      "loss": 2.7545,
+      "step": 20
+    },
+    {
+      "epoch": 0.26,
+      "grad_norm": 2.348954200744629,
+      "learning_rate": 1.6772815716257414e-05,
+      "loss": 2.4717,
+      "step": 25
+    },
+    {
+      "epoch": 0.31,
+      "grad_norm": 2.8006365299224854,
+      "learning_rate": 1.5469481581224274e-05,
+      "loss": 2.2652,
+      "step": 30
+    },
+    {
+      "epoch": 0.37,
+      "grad_norm": 4.386093616485596,
+      "learning_rate": 1.4016954246529697e-05,
+      "loss": 2.191,
+      "step": 35
+    },
+    {
+      "epoch": 0.42,
+      "grad_norm": 9.005355834960938,
+      "learning_rate": 1.2454854871407993e-05,
+      "loss": 2.1534,
+      "step": 40
+    },
+    {
+      "epoch": 0.47,
+      "grad_norm": 20.150407791137695,
+      "learning_rate": 1.0825793454723325e-05,
+      "loss": 2.1753,
+      "step": 45
+    },
+    {
+      "epoch": 0.52,
+      "grad_norm": 10.796676635742188,
+      "learning_rate": 9.174206545276678e-06,
+      "loss": 2.1211,
+      "step": 50
+    },
+    {
+      "epoch": 0.58,
+      "grad_norm": 6.0001959800720215,
+      "learning_rate": 7.545145128592009e-06,
+      "loss": 2.1188,
+      "step": 55
+    },
+    {
+      "epoch": 0.63,
+      "grad_norm": 17.091793060302734,
+      "learning_rate": 5.983045753470308e-06,
+      "loss": 2.1275,
+      "step": 60
+    },
+    {
+      "epoch": 0.68,
+      "grad_norm": 7.453630447387695,
+      "learning_rate": 4.530518418775734e-06,
+      "loss": 2.0759,
+      "step": 65
+    },
+    {
+      "epoch": 0.73,
+      "grad_norm": 14.8759126663208,
+      "learning_rate": 3.2271842837425917e-06,
+      "loss": 2.0541,
+      "step": 70
+    },
+    {
+      "epoch": 0.79,
+      "grad_norm": 6.011329174041748,
+      "learning_rate": 2.1085949060360654e-06,
+      "loss": 2.0639,
+      "step": 75
+    },
+    {
+      "epoch": 0.84,
+      "grad_norm": 10.348410606384277,
+      "learning_rate": 1.2052624879351105e-06,
+      "loss": 2.0558,
+      "step": 80
+    },
+    {
+      "epoch": 0.89,
+      "grad_norm": 1.5789004564285278,
+      "learning_rate": 5.418275829936537e-07,
+      "loss": 2.0438,
+      "step": 85
+    },
+    {
+      "epoch": 0.94,
+      "grad_norm": 2.4213907718658447,
+      "learning_rate": 1.3638696597277678e-07,
+      "loss": 2.0581,
+      "step": 90
+    },
+    {
+      "epoch": 1.0,
+      "grad_norm": 2.802840232849121,
+      "learning_rate": 0.0,
+      "loss": 2.0374,
+      "step": 95
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 2.0550477504730225,
+      "eval_runtime": 3139.1302,
+      "eval_samples_per_second": 4.293,
+      "eval_steps_per_second": 4.293,
+      "step": 95
+    },
+    {
+      "epoch": 1.0,
+      "step": 95,
+      "total_flos": 1.1582077326380237e+18,
+      "train_loss": 2.4273869564658717,
+      "train_runtime": 17086.9733,
+      "train_samples_per_second": 0.714,
+      "train_steps_per_second": 0.006
+    }
+  ],
+  "logging_steps": 5,
+  "max_steps": 95,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 100,
+  "total_flos": 1.1582077326380237e+18,
+  "train_batch_size": 1,
+  "trial_name": null,
+  "trial_params": null
+}

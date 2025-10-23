@@ -1,0 +1,23 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS folders
+__MACOSX/
+.Trashes
+.Spotlight-V100
+.fseventsd
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# System files
+*.log
+*.tmp
+

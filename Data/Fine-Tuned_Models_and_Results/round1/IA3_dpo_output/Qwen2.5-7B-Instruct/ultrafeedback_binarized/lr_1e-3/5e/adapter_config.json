@@ -1,0 +1,19 @@
+{
+  "auto_mapping": null,
+  "base_model_name_or_path": "Qwen/Qwen2.5-7B-Instruct",
+  "fan_in_fan_out": false,
+  "feedforward_modules": [
+    "down_proj"
+  ],
+  "inference_mode": true,
+  "init_ia3_weights": true,
+  "modules_to_save": null,
+  "peft_type": "IA3",
+  "revision": null,
+  "target_modules": [
+    "down_proj",
+    "v_proj",
+    "q_proj"
+  ],
+  "task_type": "CAUSAL_LM"
+}

@@ -1,0 +1,22 @@
+Column 1,Column 2,Spearman r,Spearman significant,Effect Size Spearman,Spearman p
+accuracy,accuracy_ambig,0.887,TRUE,huge,0
+accuracy,utility,0.777,TRUE,huge,0
+accuracy,accuracy_disambig,0.675,TRUE,very large,0
+accuracy_ambig,utility,0.669,TRUE,very large,0
+accuracy_disambig,utility,0.624,TRUE,very large,0
+safety_total,utility,0.488,TRUE,large,0
+accuracy_disambig,bias_score_amb,0.488,TRUE,large,0
+safety_total,accuracy_disambig,0.467,TRUE,large,0
+safety_total,accuracy,0.465,TRUE,large,0
+safety_total,accuracy_ambig,0.42,TRUE,large,0.0001
+accuracy_ambig,accuracy_disambig,0.417,TRUE,large,0.0001
+accuracy_ambig,bias_score_amb,-0.233,TRUE,small,0.0339
+accuracy_disambig,bias_score_dis,-0.289,TRUE,medium,0.0081
+safety_total,bias_score_dis,-0.336,TRUE,medium,0.0019
+bias_score_dis,utility,-0.373,TRUE,large,0.0005
+accuracy,bias_score_dis,-0.464,TRUE,large,0
+accuracy_ambig,bias_score_dis,-0.584,TRUE,very large,0
+safety_total,bias_score_amb,0.183,FALSE,small,0.0987
+accuracy,bias_score_amb,0.053,FALSE,very small,0.6342
+bias_score_amb,bias_score_dis,0.153,FALSE,small,0.1686
+bias_score_amb,utility,0.099,FALSE,very small,0.3727

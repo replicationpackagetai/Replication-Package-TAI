@@ -1,0 +1,22 @@
+Column 1,Column 2,Spearman r IA3,Significant IA3,Spearman r lora,Significant lora,Spearman r prompt,Significant prompt,Spearman r ptuning,Significant ptuning,#TRUE
+accuracy,accuracy_ambig,0.756,TRUE,0.94,TRUE,0.804,TRUE,0.697,TRUE,4
+accuracy,utility,0.369,FALSE,0.544,TRUE,0.907,TRUE,0.778,TRUE,3
+accuracy,accuracy_disambig,0.743,TRUE,0.4,FALSE,0.728,TRUE,0.864,TRUE,3
+accuracy_ambig,utility,0.274,FALSE,0.45,TRUE,0.793,TRUE,0.464,TRUE,3
+accuracy_disambig,utility,0.119,FALSE,0.32,FALSE,0.742,TRUE,0.67,TRUE,2
+accuracy_ambig,accuracy_disambig,0.36,FALSE,0.254,FALSE,0.327,FALSE,0.399,FALSE,0
+safety_total,utility,-0.522,TRUE,-0.374,FALSE,0.8,TRUE,0.824,TRUE,3
+safety_total,accuracy_disambig,-0.441,TRUE,0.015,FALSE,0.523,TRUE,0.735,TRUE,3
+safety_total,accuracy,-0.734,TRUE,-0.156,FALSE,0.773,TRUE,0.722,TRUE,3
+safety_total,accuracy_ambig,-0.636,TRUE,-0.132,FALSE,0.767,TRUE,0.475,TRUE,3
+accuracy,bias_score_dis,-0.007,FALSE,-0.702,TRUE,-0.515,TRUE,-0.203,FALSE,2
+accuracy_ambig,bias_score_dis,-0.02,FALSE,-0.694,TRUE,-0.556,TRUE,-0.69,TRUE,3
+accuracy_disambig,bias_score_dis,0.152,FALSE,-0.318,FALSE,-0.356,FALSE,-0.162,FALSE,0
+bias_score_dis,utility,-0.134,FALSE,-0.356,FALSE,-0.464,FALSE,-0.129,FALSE,0
+safety_total,bias_score_dis,-0.387,FALSE,-0.298,FALSE,-0.261,FALSE,-0.209,FALSE,0
+accuracy_disambig,bias_score_amb,0.173,FALSE,0.481,TRUE,0.697,TRUE,0.683,TRUE,3
+accuracy_ambig,bias_score_amb,-0.356,FALSE,-0.426,TRUE,-0.15,FALSE,-0.161,FALSE,1
+accuracy,bias_score_amb,-0.156,FALSE,-0.278,FALSE,0.377,FALSE,0.461,TRUE,1
+safety_total,bias_score_amb,0.351,FALSE,0.255,FALSE,0.051,FALSE,0.244,FALSE,0
+bias_score_amb,bias_score_dis,-0.303,FALSE,0.145,FALSE,-0.185,FALSE,0.391,FALSE,0
+bias_score_amb,utility,-0.02,FALSE,0.076,FALSE,0.277,FALSE,0.213,FALSE,0

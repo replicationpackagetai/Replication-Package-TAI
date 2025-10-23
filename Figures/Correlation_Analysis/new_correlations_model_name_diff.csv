@@ -1,0 +1,22 @@
+Column 1,Column 2,Spearman r Llama,Significant Llama,Spearman r Mistral,Significant Mistral,Spearman r Qwen,Significant Qwen,Spearman r Gemma,Significant Gemma,#TRUE
+accuracy,accuracy_ambig,0.989,TRUE,0.986,TRUE,0.473,TRUE,0.743,TRUE,4
+accuracy,utility,0.716,TRUE,0.819,TRUE,0.764,TRUE,0.849,TRUE,4
+accuracy,accuracy_disambig,0.888,TRUE,0.643,TRUE,0.114,FALSE,0.921,TRUE,3
+accuracy_ambig,utility,0.699,TRUE,0.816,TRUE,0.328,FALSE,0.735,TRUE,3
+accuracy_disambig,utility,0.722,TRUE,0.654,TRUE,0.224,FALSE,0.84,TRUE,3
+accuracy_ambig,accuracy_disambig,0.87,TRUE,0.585,TRUE,-0.577,TRUE,0.65,TRUE,4
+safety_total,utility,0.364,FALSE,0.714,TRUE,0.241,FALSE,0.939,TRUE,2
+safety_total,accuracy_disambig,0.342,FALSE,0.403,TRUE,0.226,FALSE,0.865,TRUE,1
+safety_total,accuracy,0.307,FALSE,0.609,TRUE,0.013,FALSE,0.874,TRUE,2
+safety_total,accuracy_ambig,0.343,FALSE,0.631,TRUE,0.194,FALSE,0.717,TRUE,2
+accuracy_disambig,bias_score_dis,-0.871,TRUE,-0.585,TRUE,0.053,FALSE,0.518,TRUE,3
+bias_score_dis,utility,-0.693,TRUE,-0.828,TRUE,-0.631,TRUE,0.322,FALSE,3
+accuracy,bias_score_dis,-0.955,TRUE,-0.632,TRUE,-0.83,TRUE,0.506,TRUE,4
+accuracy_ambig,bias_score_dis,-0.952,TRUE,-0.621,TRUE,-0.622,TRUE,-0.046,FALSE,3
+safety_total,bias_score_dis,-0.297,FALSE,-0.663,TRUE,-0.122,FALSE,0.382,FALSE,1
+accuracy_disambig,bias_score_amb,0.29,FALSE,0.112,FALSE,0.59,TRUE,0.885,TRUE,2
+accuracy_ambig,bias_score_amb,0.051,FALSE,-0.448,TRUE,-0.995,TRUE,0.699,TRUE,3
+accuracy,bias_score_amb,0.141,FALSE,-0.366,FALSE,-0.469,TRUE,0.874,TRUE,2
+safety_total,bias_score_amb,0.264,FALSE,-0.36,FALSE,-0.19,FALSE,0.888,TRUE,1
+bias_score_amb,bias_score_dis,-0.107,FALSE,0.104,FALSE,0.617,TRUE,0.403,FALSE,1
+bias_score_amb,utility,0.268,FALSE,-0.278,FALSE,-0.327,FALSE,0.886,TRUE,1
