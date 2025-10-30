@@ -1,467 +1,0 @@
-created virtual environment CPython3.11.5.final.0-64 in 1206ms
-  creator CPython3Posix(dest=/localscratch/taraghi.34938928.0/LLM, clear=False, no_vcs_ignore=False, global=False)
-  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/taraghi/.local/share/virtualenv)
-    added seed packages: pip==24.2, setuptools==73.0.1, wheel==0.44.0
-  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
-Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
-Requirement already satisfied: pip in /localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages (24.2)
-Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/accelerate-0.32.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 1))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/aiohttp-3.9.1+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 2))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/aiosignal-1.3.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 3))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/attrs-24.2.0+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 4))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/certifi-2024.2.2+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 5))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/charset_normalizer-3.2.0+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 6))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/datasets-2.19.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 7))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/dill-0.3.8+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 8))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/docstring_parser-0.15+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 9))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.13.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 10))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/frozenlist-1.4.1+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 11))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fsspec-2024.3.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 12))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/huggingface_hub-0.24.2+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 13))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/idna-3.4+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 14))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.4+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 15))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/markdown_it_py-3.0.0+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 16))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-2.1.5+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 17))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mdurl-0.1.2+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 18))
-Requirement already satisfied: mpmath==1.3.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 19)) (1.3.0+computecanada)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/multidict-6.0.5+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 20))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/multiprocess-0.70.16+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 21))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.3+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 22))
-Requirement already satisfied: numpy==1.26.4+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 23)) (1.26.4+computecanada)
-Requirement already satisfied: packaging==24.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 24)) (24.1+computecanada)
-Requirement already satisfied: pandas==2.2.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 25)) (2.2.1+computecanada)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/peft-0.11.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 26))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/protobuf-5.27.2+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 27))
-Requirement already satisfied: psutil==5.9.8 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 28)) (5.9.8)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyarrow_hotfix-0.6+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 29))
-Requirement already satisfied: python_dateutil==2.9.0.post0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 30)) (2.9.0.post0+computecanada)
-Requirement already satisfied: pytz==2024.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 31)) (2024.1+computecanada)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/PyYAML-6.0.1+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 32))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/regex-2023.8.8+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 33))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests-2.31.0+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 34))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rich-13.8.0+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 35))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/safetensors-0.4.3+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 36))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/sentencepiece-0.2.0+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 37))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/shtab-1.7.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 38))
-Requirement already satisfied: six==1.16.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 39)) (1.16.0+computecanada)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sympy-1.13.2+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 40))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/tokenizers-0.15.0+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 41))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torch-2.3.1+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 42))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tqdm-4.66.5+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 43))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/transformers-4.38.1+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 44))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/trl-0.7.11+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 45))
-Requirement already satisfied: typing_extensions==4.12.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 46)) (4.12.2+computecanada)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tyro-0.7.3+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 47))
-Requirement already satisfied: tzdata==2024.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages (from -r peft4-reqs.txt (line 48)) (2024.1+computecanada)
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/urllib3-2.1.0+computecanada-py3-none-any.whl (from -r peft4-reqs.txt (line 49))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/xxhash-3.2.0+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 50))
-Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/yarl-1.9.4+computecanada-cp311-cp311-linux_x86_64.whl (from -r peft4-reqs.txt (line 51))
-Requirement already satisfied: pyarrow>=12.0.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/arrow/17.0.0/lib/python3.11/site-packages (from datasets==2.19.1+computecanada->-r peft4-reqs.txt (line 7)) (17.0.0)
-Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2024a/lib/python3.11/site-packages (from rich==13.8.0+computecanada->-r peft4-reqs.txt (line 35)) (2.18.0+computecanada)
-Installing collected packages: sentencepiece, xxhash, urllib3, tqdm, sympy, shtab, safetensors, regex, PyYAML, pyarrow_hotfix, protobuf, networkx, multidict, mdurl, MarkupSafe, idna, fsspec, frozenlist, filelock, docstring_parser, dill, charset_normalizer, certifi, attrs, yarl, requests, multiprocess, markdown_it_py, jinja2, aiosignal, torch, rich, huggingface_hub, aiohttp, tyro, tokenizers, accelerate, transformers, datasets, trl, peft
-  Attempting uninstall: sympy
-    Found existing installation: sympy 1.12.1+computecanada
-    Not uninstalling sympy at /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages, outside environment /localscratch/taraghi.34938928.0/LLM
-    Can't uninstall 'sympy'. No files were found to uninstall.
-Successfully installed MarkupSafe-2.1.5+computecanada PyYAML-6.0.1+computecanada accelerate-0.32.1+computecanada aiohttp-3.9.1+computecanada aiosignal-1.3.1+computecanada attrs-24.2.0+computecanada certifi-2024.2.2+computecanada charset_normalizer-3.2.0+computecanada datasets-2.19.1+computecanada dill-0.3.8+computecanada docstring_parser-0.15+computecanada filelock-3.13.1+computecanada frozenlist-1.4.1+computecanada fsspec-2024.3.1+computecanada huggingface_hub-0.24.2+computecanada idna-3.4+computecanada jinja2-3.1.4+computecanada markdown_it_py-3.0.0+computecanada mdurl-0.1.2+computecanada multidict-6.0.5+computecanada multiprocess-0.70.16+computecanada networkx-3.3+computecanada peft-0.11.1+computecanada protobuf-5.27.2+computecanada pyarrow_hotfix-0.6+computecanada regex-2023.8.8+computecanada requests-2.31.0+computecanada rich-13.8.0+computecanada safetensors-0.4.3+computecanada sentencepiece-0.2.0+computecanada shtab-1.7.1+computecanada sympy-1.13.2+computecanada tokenizers-0.15.0+computecanada torch-2.3.1+computecanada tqdm-4.66.5+computecanada transformers-4.38.1+computecanada trl-0.7.11+computecanada tyro-0.7.3+computecanada urllib3-2.1.0+computecanada xxhash-3.2.0+computecanada yarl-1.9.4+computecanada
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
-  warnings.warn(
-The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
-Loading Dataset...
-Loading Tokenizer...
-Processing Dataset...
-Applying chat template (num_proc=64):   0%|          | 0/20785 [00:00<?, ? examples/s]Applying chat template (num_proc=64):   0%|          | 1/20785 [00:01<6:26:53,  1.12s/ examples]Applying chat template (num_proc=64):   0%|          | 11/20785 [00:01<32:33, 10.63 examples/s] Applying chat template (num_proc=64):   0%|          | 29/20785 [00:01<11:21, 30.45 examples/s]Applying chat template (num_proc=64):   0%|          | 38/20785 [00:01<09:27, 36.57 examples/s]Applying chat template (num_proc=64):   0%|          | 78/20785 [00:01<03:38, 94.71 examples/s]Applying chat template (num_proc=64):   0%|          | 102/20785 [00:01<03:12, 107.39 examples/s]Applying chat template (num_proc=64):   1%|          | 206/20785 [00:02<01:13, 279.26 examples/s]Applying chat template (num_proc=64):   2%|▏         | 340/20785 [00:02<00:43, 475.37 examples/s]Applying chat template (num_proc=64):   8%|▊         | 1659/20785 [00:02<00:05, 3261.62 examples/s]Applying chat template (num_proc=64):  10%|█         | 2120/20785 [00:02<00:05, 3183.17 examples/s]Applying chat template (num_proc=64):  14%|█▍        | 2870/20785 [00:02<00:04, 3677.96 examples/s]Applying chat template (num_proc=64):  20%|█▉        | 4063/20785 [00:02<00:03, 4998.68 examples/s]Applying chat template (num_proc=64):  22%|██▏       | 4620/20785 [00:03<00:08, 1916.37 examples/s]Applying chat template (num_proc=64):  24%|██▍       | 5018/20785 [00:04<00:10, 1537.36 examples/s]Applying chat template (num_proc=64):  26%|██▌       | 5319/20785 [00:04<00:12, 1262.69 examples/s]Applying chat template (num_proc=64):  27%|██▋       | 5553/20785 [00:04<00:15, 961.77 examples/s] Applying chat template (num_proc=64):  28%|██▊       | 5729/20785 [00:05<00:15, 944.36 examples/s]Applying chat template (num_proc=64):  32%|███▏      | 6634/20785 [00:05<00:08, 1579.03 examples/s]Applying chat template (num_proc=64):  43%|████▎     | 8899/20785 [00:05<00:02, 3993.34 examples/s]Applying chat template (num_proc=64):  47%|████▋     | 9739/20785 [00:05<00:02, 3773.66 examples/s]Applying chat template (num_proc=64):  53%|█████▎    | 10934/20785 [00:05<00:02, 4773.46 examples/s]Applying chat template (num_proc=64):  56%|█████▋    | 11709/20785 [00:06<00:01, 4786.46 examples/s]Applying chat template (num_proc=64):  60%|█████▉    | 12381/20785 [00:06<00:03, 2157.69 examples/s]Applying chat template (num_proc=64):  62%|██████▏   | 12920/20785 [00:07<00:04, 1821.62 examples/s]Applying chat template (num_proc=64):  64%|██████▍   | 13333/20785 [00:07<00:03, 2025.50 examples/s]Applying chat template (num_proc=64):  66%|██████▋   | 13818/20785 [00:07<00:02, 2344.37 examples/s]Applying chat template (num_proc=64):  70%|███████   | 14553/20785 [00:07<00:02, 3043.01 examples/s]Applying chat template (num_proc=64):  73%|███████▎  | 15257/20785 [00:07<00:01, 3605.04 examples/s]Applying chat template (num_proc=64):  77%|███████▋  | 16095/20785 [00:07<00:01, 4392.22 examples/s]Applying chat template (num_proc=64):  82%|████████▏ | 16992/20785 [00:08<00:00, 5316.14 examples/s]Applying chat template (num_proc=64):  87%|████████▋ | 18178/20785 [00:08<00:00, 6803.59 examples/s]Applying chat template (num_proc=64):  93%|█████████▎| 19382/20785 [00:08<00:00, 8033.82 examples/s]Applying chat template (num_proc=64):  98%|█████████▊| 20429/20785 [00:09<00:00, 2882.12 examples/s]Applying chat template (num_proc=64): 100%|██████████| 20785/20785 [00:25<00:00, 823.58 examples/s] 
-Applying chat template (num_proc=64):   0%|          | 0/1000 [00:00<?, ? examples/s]Applying chat template (num_proc=64):   0%|          | 1/1000 [00:00<13:52,  1.20 examples/s]Applying chat template (num_proc=64):   2%|▏         | 17/1000 [00:01<00:47, 20.88 examples/s]Applying chat template (num_proc=64):   3%|▎         | 33/1000 [00:01<00:24, 39.72 examples/s]Applying chat template (num_proc=64):   5%|▍         | 49/1000 [00:01<00:20, 45.88 examples/s]Applying chat template (num_proc=64):   8%|▊         | 81/1000 [00:01<00:10, 85.96 examples/s]Applying chat template (num_proc=64):  11%|█▏        | 114/1000 [00:01<00:07, 119.76 examples/s]Applying chat template (num_proc=64):  36%|███▌      | 361/1000 [00:01<00:01, 558.02 examples/s]Applying chat template (num_proc=64):  45%|████▌     | 453/1000 [00:02<00:01, 402.79 examples/s]Applying chat template (num_proc=64):  52%|█████▏    | 520/1000 [00:02<00:01, 358.68 examples/s]Applying chat template (num_proc=64):  58%|█████▊    | 578/1000 [00:02<00:01, 357.08 examples/s]Applying chat template (num_proc=64):  63%|██████▎   | 627/1000 [00:02<00:01, 362.70 examples/s]Applying chat template (num_proc=64):  67%|██████▋   | 673/1000 [00:02<00:01, 322.95 examples/s]Applying chat template (num_proc=64):  74%|███████▎  | 736/1000 [00:03<00:00, 363.85 examples/s]Applying chat template (num_proc=64):  78%|███████▊  | 779/1000 [00:03<00:00, 254.72 examples/s]Applying chat template (num_proc=64):  84%|████████▍ | 838/1000 [00:03<00:00, 306.21 examples/s]Applying chat template (num_proc=64):  90%|█████████ | 901/1000 [00:03<00:00, 337.22 examples/s]Applying chat template (num_proc=64):  97%|█████████▋| 970/1000 [00:03<00:00, 404.79 examples/s]Applying chat template (num_proc=64): 100%|██████████| 1000/1000 [00:04<00:00, 246.73 examples/s]
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-Sample 4971 of the processed training set:
-
-<s>[INST] Find pivot index
-
-Given an array of integers nums, calculate the pivot index of this array.
-
-The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
-
-If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
-
-Return the leftmost pivot index. If no such index exists, return -1
-
-/\*\*
- \* @param {number[]} nums
- \* @return {number}
- \*/
-var pivotIndex = function(nums) {
- 
-};[/INST] Sure, I'd be happy to help you with that! The problem you're describing is a classic problem in computer science, known as the "pivot index" problem. The solution is as follows:
-
-1. Start by initializing two variables, `leftSum` and `rightSum`, to 0.
-2. Iterate through the array `nums` from left to right.
-3. For each element `nums[i]`, calculate the sum of all elements strictly to the left of it (i.e., `leftSum += nums[i-1]` if `i` is not 0, and `leftSum += 0` if `i` is 0).
-4. Calculate the sum of all elements strictly to the right of it (i.e., `rightSum += nums[i+1]` if `i` is not the last index, and `rightSum += 0` if `i` is the last index).
-5. Check if the sum of the elements strictly to the left of `nums[i]` is equal to the sum of the elements strictly to the right of `nums[i]`. If this condition is satisfied, return `i` as the pivot index.
-6. If no such index exists, return -1.
-
-Here's some sample code to illustrate the solution:
-```
-function pivotIndex(nums) {
-  let leftSum = 0;
-  let rightSum = 0;
-  for (let i = 0; i < nums.length; i++) {
-    leftSum += (i > 0 ? nums[i - 1] : 0);
-    rightSum += (i < nums.length - 1 ? nums[i + 1] : 0);
-    if (leftSum === rightSum) {
-      return i;
-    }
-  }
-  return -1;
-}
-```
-The time complexity of this solution is O(n), where n is the length of the input array, and the space complexity is O(1) since we only need to keep track of two variables.
-
-I hope this helps! Let me know if you have any further questions.</s>
-Sample 752 of the processed training set:
-
-<s>[INST] Premise: "A man wearing slacks and a red shirt dances with a woman wearing a tight red dress."
-Hypothesis: "A man and a woman are sitting down."
-Do we know that the hypothesis entailed by the premise? Now, let's be accurate as possible. Some thinking first:[/INST] The hypothesis is not entailed by the premise.
-
-Confidence: 95%</s>
-Sample 18143 of the processed training set:
-
-<s>[INST] What environmental, social, and governance (ESG) factors will Six Flags consider when entering new markets?[/INST] Six Flags will consider the following environmental, social, and governance (ESG) factors when entering new markets:
-
-* **Environmental**
-    * Air quality: Six Flags will consider the air quality in the new market and ensure that its operations do not contribute to air pollution.
-    * Water quality: Six Flags will ensure that its operations do not pollute water sources.
-    * Waste management: Six Flags will implement waste management practices to reduce, reuse, and recycle.
-    * Energy efficiency: Six Flags will use energy-efficient technologies to reduce its environmental impact.
-* **Social**
-    * Employment practices: Six Flags will ensure that it complies with all applicable employment laws and regulations in the new market.
-    * Community relations: Six Flags will work with the community to ensure that its operations are beneficial and do not cause any harm.
-    * Diversity and inclusion: Six Flags will promote diversity and inclusion in its workforce.
-* **Governance**
-    * Corporate governance: Six Flags will have a strong corporate governance structure in place to ensure that its operations are ethical and responsible.
-    * Transparency: Six Flags will be transparent about its operations and financial performance.
-    * Risk management: Six Flags will have a robust risk management system in place to identify and mitigate potential risks.
-
-These are just some of the ESG factors that Six Flags will consider when entering new markets. By considering these factors, Six Flags can help to ensure that its operations are sustainable and responsible.</s>
-Loading Configs...
-prompt_output/Mistral-7B-Instruct-v0.3/ultrafeedback
-*******************************************************************
-Output directory set to: prompt_output/Mistral-7B-Instruct-v0.3/ultrafeedback
-Loading Model....
-Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 4847.04it/s]
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:17,  8.96s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:18<00:09,  9.09s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:26<00:00,  8.64s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:26<00:00,  8.75s/it]
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/trl/trainer/sft_trainer.py:161: UserWarning: You passed a model_id to the SFTTrainer. This will automatically create an `AutoModelForCausalLM` or a `PeftModel` (if you passed a `peft_config`) for you.
-  warnings.warn(
-Initializing the Trainer...
-Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 5043.25it/s]
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.15s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.12s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.13s/it]
-Generating train split: 0 examples [00:00, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (2443 > 2048). Running this sequence through the model will result in indexing errors
-Generating train split: 1 examples [00:46, 46.13s/ examples]Generating train split: 527 examples [00:46, 16.26 examples/s]Generating train split: 795 examples [01:04, 16.26 examples/s]Generating train split: 949 examples [01:19, 14.16 examples/s]Generating train split: 1262 examples [01:19, 22.11 examples/s]Generating train split: 1802 examples [01:19, 41.63 examples/s]Generating train split: 1802 examples [01:35, 41.63 examples/s]Generating train split: 1891 examples [02:08, 13.07 examples/s]Generating train split: 2262 examples [02:08, 20.77 examples/s]Generating train split: 2728 examples [02:08, 34.54 examples/s]Generating train split: 2728 examples [02:21, 34.54 examples/s]Generating train split: 2837 examples [02:42, 16.03 examples/s]Generating train split: 3256 examples [02:42, 26.34 examples/s]Generating train split: 3526 examples [02:53, 26.34 examples/s]Generating train split: 3786 examples [03:15, 20.94 examples/s]Generating train split: 4244 examples [03:15, 31.58 examples/s]Generating train split: 4738 examples [03:25, 36.04 examples/s]Generating train split: 5000 examples [03:25, 45.22 examples/s]Generating train split: 5168 examples [03:25, 25.10 examples/s]
-Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1 examples [00:50, 50.46s/ examples]Generating train split: 249 examples [00:50,  4.93 examples/s]
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/trl/trainer/sft_trainer.py:294: UserWarning: You passed a tokenizer with `padding_side` not equal to `right` to the SFTTrainer. This might lead to some unexpected behaviour due to overflow issues when training a model in half-precision. You might consider adding `tokenizer.padding_side = 'right'` to your code.
-  warnings.warn(
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/accelerate/accelerator.py:447: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches', 'even_batches', 'use_seedable_sampler']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
-dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False, even_batches=True, use_seedable_sampler=True)
-  warnings.warn(
-Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-***** Running training *****
-  Num examples = 5,168
-  Num Epochs = 1
-  Instantaneous batch size per device = 1
-  Total train batch size (w. parallel, distributed & accumulation) = 128
-  Gradient Accumulation steps = 128
-  Total optimization steps = 40
-  Number of trainable parameters = 81,920
-Training...
-  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [01:09<45:04, 69.34s/it]  5%|▌         | 2/40 [02:18<43:51, 69.25s/it]  8%|▊         | 3/40 [03:27<42:40, 69.20s/it] 10%|█         | 4/40 [04:36<41:32, 69.22s/it] 12%|█▎        | 5/40 [05:46<40:22, 69.21s/it]                                               12%|█▎        | 5/40 [05:46<40:22, 69.21s/it] 15%|█▌        | 6/40 [06:55<39:13, 69.22s/it] 18%|█▊        | 7/40 [08:04<38:04, 69.22s/it] 20%|██        | 8/40 [09:13<36:55, 69.23s/it] 22%|██▎       | 9/40 [10:23<35:46, 69.25s/it] 25%|██▌       | 10/40 [11:32<34:37, 69.26s/it]                                                25%|██▌       | 10/40 [11:32<34:37, 69.26s/it] 28%|██▊       | 11/40 [12:41<33:28, 69.25s/it] 30%|███       | 12/40 [13:50<32:19, 69.25s/it] 32%|███▎      | 13/40 [15:00<31:09, 69.25s/it] 35%|███▌      | 14/40 [16:09<30:00, 69.24s/it] 38%|███▊      | 15/40 [17:18<28:50, 69.22s/it]                                                38%|███▊      | 15/40 [17:18<28:50, 69.22s/it] 40%|████      | 16/40 [18:27<27:41, 69.23s/it] 42%|████▎     | 17/40 [19:36<26:32, 69.23s/it] 45%|████▌     | 18/40 [20:46<25:22, 69.22s/it] 48%|████▊     | 19/40 [21:55<24:13, 69.23s/it] 50%|█████     | 20/40 [23:04<23:05, 69.25s/it]                                                50%|█████     | 20/40 [23:04<23:05, 69.25s/it] 52%|█████▎    | 21/40 [24:13<21:55, 69.24s/it] 55%|█████▌    | 22/40 [25:23<20:46, 69.25s/it] 57%|█████▊    | 23/40 [26:32<19:37, 69.25s/it] 60%|██████    | 24/40 [27:41<18:27, 69.25s/it] 62%|██████▎   | 25/40 [28:51<17:18, 69.26s/it]                                                62%|██████▎   | 25/40 [28:51<17:18, 69.26s/it] 65%|██████▌   | 26/40 [30:00<16:11, 69.39s/it] 68%|██████▊   | 27/40 [31:09<15:01, 69.34s/it] 70%|███████   | 28/40 [32:19<13:52, 69.34s/it] 72%|███████▎  | 29/40 [33:28<12:42, 69.30s/it] 75%|███████▌  | 30/40 [34:37<11:32, 69.28s/it]                                                75%|███████▌  | 30/40 [34:37<11:32, 69.28s/it] 78%|███████▊  | 31/40 [35:46<10:23, 69.26s/it] 80%|████████  | 32/40 [36:56<09:13, 69.24s/it] 82%|████████▎ | 33/40 [38:05<08:04, 69.24s/it] 85%|████████▌ | 34/40 [39:14<06:55, 69.23s/it] 88%|████████▊ | 35/40 [40:23<05:46, 69.23s/it]                                                88%|████████▊ | 35/40 [40:23<05:46, 69.23s/it] 90%|█████████ | 36/40 [41:33<04:36, 69.23s/it] 92%|█████████▎| 37/40 [42:42<03:27, 69.23s/it] 95%|█████████▌| 38/40 [43:51<02:18, 69.23s/it] 98%|█████████▊| 39/40 [45:00<01:09, 69.23s/it]100%|██████████| 40/40 [46:09<00:00, 69.20s/it]                                               100%|██████████| 40/40 [46:09<00:00, 69.20s/it]***** Running Evaluation *****
-  Num examples = 249
-  Batch size = 1
-{'loss': 1.8768, 'grad_norm': 0.09388230741024017, 'learning_rate': 1.9238795325112867e-05, 'epoch': 0.12}
-{'loss': 1.8732, 'grad_norm': 0.08249925076961517, 'learning_rate': 1.7071067811865477e-05, 'epoch': 0.25}
-{'loss': 1.8479, 'grad_norm': 0.07664819061756134, 'learning_rate': 1.3826834323650899e-05, 'epoch': 0.37}
-{'loss': 1.8488, 'grad_norm': 0.07181928306818008, 'learning_rate': 1e-05, 'epoch': 0.5}
-{'loss': 1.8494, 'grad_norm': 0.07327385246753693, 'learning_rate': 6.173165676349103e-06, 'epoch': 0.62}
-{'loss': 1.8485, 'grad_norm': 0.08152075111865997, 'learning_rate': 2.9289321881345257e-06, 'epoch': 0.74}
-{'loss': 1.8576, 'grad_norm': 0.08190544694662094, 'learning_rate': 7.612046748871327e-07, 'epoch': 0.87}
-{'loss': 1.8504, 'grad_norm': 0.07682780176401138, 'learning_rate': 0.0, 'epoch': 0.99}
-
-  0%|          | 0/249 [00:00<?, ?it/s][A
-  1%|          | 2/249 [00:00<00:21, 11.41it/s][A
-  2%|▏         | 4/249 [00:00<00:34,  7.16it/s][A
-  2%|▏         | 5/249 [00:00<00:36,  6.64it/s][A
-  2%|▏         | 6/249 [00:00<00:38,  6.31it/s][A
-  3%|▎         | 7/249 [00:01<00:39,  6.09it/s][A
-  3%|▎         | 8/249 [00:01<00:40,  5.96it/s][A
-  4%|▎         | 9/249 [00:01<00:40,  5.87it/s][A
-  4%|▍         | 10/249 [00:01<00:41,  5.81it/s][A
-  4%|▍         | 11/249 [00:01<00:41,  5.77it/s][A
-  5%|▍         | 12/249 [00:01<00:41,  5.73it/s][A
-  5%|▌         | 13/249 [00:02<00:41,  5.70it/s][A
-  6%|▌         | 14/249 [00:02<00:41,  5.70it/s][A
-  6%|▌         | 15/249 [00:02<00:41,  5.69it/s][A
-  6%|▋         | 16/249 [00:02<00:41,  5.68it/s][A
-  7%|▋         | 17/249 [00:02<00:40,  5.68it/s][A
-  7%|▋         | 18/249 [00:03<00:40,  5.67it/s][A
-  8%|▊         | 19/249 [00:03<00:40,  5.67it/s][A
-  8%|▊         | 20/249 [00:03<00:40,  5.67it/s][A
-  8%|▊         | 21/249 [00:03<00:40,  5.67it/s][A
-  9%|▉         | 22/249 [00:03<00:40,  5.67it/s][A
-  9%|▉         | 23/249 [00:03<00:39,  5.67it/s][A
- 10%|▉         | 24/249 [00:04<00:39,  5.66it/s][A
- 10%|█         | 25/249 [00:04<00:39,  5.67it/s][A
- 10%|█         | 26/249 [00:04<00:39,  5.66it/s][A
- 11%|█         | 27/249 [00:04<00:39,  5.65it/s][A
- 11%|█         | 28/249 [00:04<00:39,  5.66it/s][A
- 12%|█▏        | 29/249 [00:04<00:38,  5.66it/s][A
- 12%|█▏        | 30/249 [00:05<00:38,  5.66it/s][A
- 12%|█▏        | 31/249 [00:05<00:38,  5.66it/s][A
- 13%|█▎        | 32/249 [00:05<00:38,  5.67it/s][A
- 13%|█▎        | 33/249 [00:05<00:38,  5.66it/s][A
- 14%|█▎        | 34/249 [00:05<00:38,  5.66it/s][A
- 14%|█▍        | 35/249 [00:06<00:37,  5.66it/s][A
- 14%|█▍        | 36/249 [00:06<00:37,  5.67it/s][A
- 15%|█▍        | 37/249 [00:06<00:37,  5.66it/s][A
- 15%|█▌        | 38/249 [00:06<00:37,  5.65it/s][A
- 16%|█▌        | 39/249 [00:06<00:37,  5.66it/s][A
- 16%|█▌        | 40/249 [00:06<00:36,  5.66it/s][A
- 16%|█▋        | 41/249 [00:07<00:36,  5.66it/s][A
- 17%|█▋        | 42/249 [00:07<00:36,  5.66it/s][A
- 17%|█▋        | 43/249 [00:07<00:36,  5.67it/s][A
- 18%|█▊        | 44/249 [00:07<00:36,  5.66it/s][A
- 18%|█▊        | 45/249 [00:07<00:36,  5.66it/s][A
- 18%|█▊        | 46/249 [00:07<00:35,  5.66it/s][A
- 19%|█▉        | 47/249 [00:08<00:35,  5.67it/s][A
- 19%|█▉        | 48/249 [00:08<00:35,  5.66it/s][A
- 20%|█▉        | 49/249 [00:08<00:35,  5.66it/s][A
- 20%|██        | 50/249 [00:08<00:35,  5.66it/s][A
- 20%|██        | 51/249 [00:08<00:35,  5.66it/s][A
- 21%|██        | 52/249 [00:09<00:34,  5.66it/s][A
- 21%|██▏       | 53/249 [00:09<00:34,  5.66it/s][A
- 22%|██▏       | 54/249 [00:09<00:34,  5.66it/s][A
- 22%|██▏       | 55/249 [00:09<00:34,  5.67it/s][A
- 22%|██▏       | 56/249 [00:09<00:34,  5.67it/s][A
- 23%|██▎       | 57/249 [00:09<00:33,  5.67it/s][A
- 23%|██▎       | 58/249 [00:10<00:33,  5.67it/s][A
- 24%|██▎       | 59/249 [00:10<00:33,  5.66it/s][A
- 24%|██▍       | 60/249 [00:10<00:33,  5.66it/s][A
- 24%|██▍       | 61/249 [00:10<00:33,  5.66it/s][A
- 25%|██▍       | 62/249 [00:10<00:32,  5.67it/s][A
- 25%|██▌       | 63/249 [00:10<00:32,  5.66it/s][A
- 26%|██▌       | 64/249 [00:11<00:32,  5.67it/s][A
- 26%|██▌       | 65/249 [00:11<00:32,  5.66it/s][A
- 27%|██▋       | 66/249 [00:11<00:32,  5.66it/s][A
- 27%|██▋       | 67/249 [00:11<00:32,  5.65it/s][A
- 27%|██▋       | 68/249 [00:11<00:31,  5.66it/s][A
- 28%|██▊       | 69/249 [00:12<00:31,  5.66it/s][A
- 28%|██▊       | 70/249 [00:12<00:31,  5.67it/s][A
- 29%|██▊       | 71/249 [00:12<00:31,  5.67it/s][A
- 29%|██▉       | 72/249 [00:12<00:31,  5.66it/s][A
- 29%|██▉       | 73/249 [00:12<00:31,  5.67it/s][A
- 30%|██▉       | 74/249 [00:12<00:30,  5.65it/s][A
- 30%|███       | 75/249 [00:13<00:30,  5.66it/s][A
- 31%|███       | 76/249 [00:13<00:30,  5.67it/s][A
- 31%|███       | 77/249 [00:13<00:30,  5.66it/s][A
- 31%|███▏      | 78/249 [00:13<00:30,  5.66it/s][A
- 32%|███▏      | 79/249 [00:13<00:30,  5.66it/s][A
- 32%|███▏      | 80/249 [00:13<00:29,  5.66it/s][A
- 33%|███▎      | 81/249 [00:14<00:29,  5.66it/s][A
- 33%|███▎      | 82/249 [00:14<00:29,  5.66it/s][A
- 33%|███▎      | 83/249 [00:14<00:29,  5.66it/s][A
- 34%|███▎      | 84/249 [00:14<00:29,  5.66it/s][A
- 34%|███▍      | 85/249 [00:14<00:28,  5.66it/s][A
- 35%|███▍      | 86/249 [00:15<00:28,  5.66it/s][A
- 35%|███▍      | 87/249 [00:15<00:28,  5.66it/s][A
- 35%|███▌      | 88/249 [00:15<00:28,  5.66it/s][A
- 36%|███▌      | 89/249 [00:15<00:28,  5.66it/s][A
- 36%|███▌      | 90/249 [00:15<00:28,  5.66it/s][A
- 37%|███▋      | 91/249 [00:15<00:27,  5.67it/s][A
- 37%|███▋      | 92/249 [00:16<00:27,  5.66it/s][A
- 37%|███▋      | 93/249 [00:16<00:27,  5.67it/s][A
- 38%|███▊      | 94/249 [00:16<00:27,  5.67it/s][A
- 38%|███▊      | 95/249 [00:16<00:27,  5.67it/s][A
- 39%|███▊      | 96/249 [00:16<00:27,  5.66it/s][A
- 39%|███▉      | 97/249 [00:16<00:26,  5.66it/s][A
- 39%|███▉      | 98/249 [00:17<00:26,  5.66it/s][A
- 40%|███▉      | 99/249 [00:17<00:26,  5.66it/s][A
- 40%|████      | 100/249 [00:17<00:26,  5.66it/s][A
- 41%|████      | 101/249 [00:17<00:26,  5.66it/s][A
- 41%|████      | 102/249 [00:17<00:25,  5.66it/s][A
- 41%|████▏     | 103/249 [00:18<00:25,  5.65it/s][A
- 42%|████▏     | 104/249 [00:18<00:25,  5.66it/s][A
- 42%|████▏     | 105/249 [00:18<00:25,  5.66it/s][A
- 43%|████▎     | 106/249 [00:18<00:25,  5.66it/s][A
- 43%|████▎     | 107/249 [00:18<00:25,  5.65it/s][A
- 43%|████▎     | 108/249 [00:18<00:24,  5.66it/s][A
- 44%|████▍     | 109/249 [00:19<00:24,  5.65it/s][A
- 44%|████▍     | 110/249 [00:19<00:24,  5.66it/s][A
- 45%|████▍     | 111/249 [00:19<00:24,  5.66it/s][A
- 45%|████▍     | 112/249 [00:19<00:24,  5.66it/s][A
- 45%|████▌     | 113/249 [00:19<00:23,  5.67it/s][A
- 46%|████▌     | 114/249 [00:19<00:23,  5.66it/s][A
- 46%|████▌     | 115/249 [00:20<00:23,  5.65it/s][A
- 47%|████▋     | 116/249 [00:20<00:23,  5.66it/s][A
- 47%|████▋     | 117/249 [00:20<00:23,  5.66it/s][A
- 47%|████▋     | 118/249 [00:20<00:23,  5.66it/s][A
- 48%|████▊     | 119/249 [00:20<00:22,  5.67it/s][A
- 48%|████▊     | 120/249 [00:21<00:22,  5.66it/s][A
- 49%|████▊     | 121/249 [00:21<00:22,  5.66it/s][A
- 49%|████▉     | 122/249 [00:21<00:22,  5.66it/s][A
- 49%|████▉     | 123/249 [00:21<00:22,  5.67it/s][A
- 50%|████▉     | 124/249 [00:21<00:22,  5.67it/s][A
- 50%|█████     | 125/249 [00:21<00:21,  5.66it/s][A
- 51%|█████     | 126/249 [00:22<00:21,  5.65it/s][A
- 51%|█████     | 127/249 [00:22<00:21,  5.66it/s][A
- 51%|█████▏    | 128/249 [00:22<00:21,  5.66it/s][A
- 52%|█████▏    | 129/249 [00:22<00:21,  5.66it/s][A
- 52%|█████▏    | 130/249 [00:22<00:20,  5.67it/s][A
- 53%|█████▎    | 131/249 [00:22<00:20,  5.66it/s][A
- 53%|█████▎    | 132/249 [00:23<00:20,  5.66it/s][A
- 53%|█████▎    | 133/249 [00:23<00:20,  5.67it/s][A
- 54%|█████▍    | 134/249 [00:23<00:20,  5.67it/s][A
- 54%|█████▍    | 135/249 [00:23<00:20,  5.67it/s][A
- 55%|█████▍    | 136/249 [00:23<00:19,  5.67it/s][A
- 55%|█████▌    | 137/249 [00:24<00:19,  5.67it/s][A
- 55%|█████▌    | 138/249 [00:24<00:19,  5.66it/s][A
- 56%|█████▌    | 139/249 [00:24<00:19,  5.66it/s][A
- 56%|█████▌    | 140/249 [00:24<00:19,  5.66it/s][A
- 57%|█████▋    | 141/249 [00:24<00:19,  5.67it/s][A
- 57%|█████▋    | 142/249 [00:24<00:18,  5.67it/s][A
- 57%|█████▋    | 143/249 [00:25<00:18,  5.66it/s][A
- 58%|█████▊    | 144/249 [00:25<00:18,  5.66it/s][A
- 58%|█████▊    | 145/249 [00:25<00:18,  5.66it/s][A
- 59%|█████▊    | 146/249 [00:25<00:18,  5.66it/s][A
- 59%|█████▉    | 147/249 [00:25<00:17,  5.67it/s][A
- 59%|█████▉    | 148/249 [00:25<00:17,  5.67it/s][A
- 60%|█████▉    | 149/249 [00:26<00:17,  5.66it/s][A
- 60%|██████    | 150/249 [00:26<00:17,  5.66it/s][A
- 61%|██████    | 151/249 [00:26<00:17,  5.66it/s][A
- 61%|██████    | 152/249 [00:26<00:17,  5.67it/s][A
- 61%|██████▏   | 153/249 [00:26<00:16,  5.67it/s][A
- 62%|██████▏   | 154/249 [00:27<00:16,  5.66it/s][A
- 62%|██████▏   | 155/249 [00:27<00:16,  5.67it/s][A
- 63%|██████▎   | 156/249 [00:27<00:16,  5.67it/s][A
- 63%|██████▎   | 157/249 [00:27<00:16,  5.67it/s][A
- 63%|██████▎   | 158/249 [00:27<00:16,  5.67it/s][A
- 64%|██████▍   | 159/249 [00:27<00:15,  5.66it/s][A
- 64%|██████▍   | 160/249 [00:28<00:15,  5.66it/s][A
- 65%|██████▍   | 161/249 [00:28<00:15,  5.66it/s][A
- 65%|██████▌   | 162/249 [00:28<00:15,  5.66it/s][A
- 65%|██████▌   | 163/249 [00:28<00:15,  5.66it/s][A
- 66%|██████▌   | 164/249 [00:28<00:15,  5.66it/s][A
- 66%|██████▋   | 165/249 [00:28<00:14,  5.66it/s][A
- 67%|██████▋   | 166/249 [00:29<00:14,  5.66it/s][A
- 67%|██████▋   | 167/249 [00:29<00:14,  5.66it/s][A
- 67%|██████▋   | 168/249 [00:29<00:14,  5.67it/s][A
- 68%|██████▊   | 169/249 [00:29<00:14,  5.66it/s][A
- 68%|██████▊   | 170/249 [00:29<00:13,  5.66it/s][A
- 69%|██████▊   | 171/249 [00:30<00:13,  5.67it/s][A
- 69%|██████▉   | 172/249 [00:30<00:13,  5.66it/s][A
- 69%|██████▉   | 173/249 [00:30<00:13,  5.66it/s][A
- 70%|██████▉   | 174/249 [00:30<00:13,  5.66it/s][A
- 70%|███████   | 175/249 [00:30<00:13,  5.66it/s][A
- 71%|███████   | 176/249 [00:30<00:12,  5.66it/s][A
- 71%|███████   | 177/249 [00:31<00:12,  5.66it/s][A
- 71%|███████▏  | 178/249 [00:31<00:12,  5.66it/s][A
- 72%|███████▏  | 179/249 [00:31<00:12,  5.67it/s][A
- 72%|███████▏  | 180/249 [00:31<00:12,  5.66it/s][A
- 73%|███████▎  | 181/249 [00:31<00:12,  5.66it/s][A
- 73%|███████▎  | 182/249 [00:31<00:11,  5.67it/s][A
- 73%|███████▎  | 183/249 [00:32<00:11,  5.66it/s][A
- 74%|███████▍  | 184/249 [00:32<00:11,  5.66it/s][A
- 74%|███████▍  | 185/249 [00:32<00:11,  5.66it/s][A
- 75%|███████▍  | 186/249 [00:32<00:11,  5.66it/s][A
- 75%|███████▌  | 187/249 [00:32<00:10,  5.66it/s][A
- 76%|███████▌  | 188/249 [00:33<00:10,  5.67it/s][A
- 76%|███████▌  | 189/249 [00:33<00:10,  5.67it/s][A
- 76%|███████▋  | 190/249 [00:33<00:10,  5.66it/s][A
- 77%|███████▋  | 191/249 [00:33<00:10,  5.66it/s][A
- 77%|███████▋  | 192/249 [00:33<00:10,  5.66it/s][A
- 78%|███████▊  | 193/249 [00:33<00:09,  5.67it/s][A
- 78%|███████▊  | 194/249 [00:34<00:09,  5.66it/s][A
- 78%|███████▊  | 195/249 [00:34<00:09,  5.66it/s][A
- 79%|███████▊  | 196/249 [00:34<00:09,  5.67it/s][A
- 79%|███████▉  | 197/249 [00:34<00:09,  5.66it/s][A
- 80%|███████▉  | 198/249 [00:34<00:09,  5.66it/s][A
- 80%|███████▉  | 199/249 [00:34<00:08,  5.66it/s][A
- 80%|████████  | 200/249 [00:35<00:08,  5.67it/s][A
- 81%|████████  | 201/249 [00:35<00:08,  5.66it/s][A
- 81%|████████  | 202/249 [00:35<00:08,  5.66it/s][A
- 82%|████████▏ | 203/249 [00:35<00:08,  5.66it/s][A
- 82%|████████▏ | 204/249 [00:35<00:07,  5.66it/s][A
- 82%|████████▏ | 205/249 [00:36<00:07,  5.67it/s][A
- 83%|████████▎ | 206/249 [00:36<00:07,  5.67it/s][A
- 83%|████████▎ | 207/249 [00:36<00:07,  5.66it/s][A
- 84%|████████▎ | 208/249 [00:36<00:07,  5.65it/s][A
- 84%|████████▍ | 209/249 [00:36<00:07,  5.66it/s][A
- 84%|████████▍ | 210/249 [00:36<00:06,  5.67it/s][A
- 85%|████████▍ | 211/249 [00:37<00:06,  5.66it/s][A
- 85%|████████▌ | 212/249 [00:37<00:06,  5.67it/s][A
- 86%|████████▌ | 213/249 [00:37<00:06,  5.67it/s][A
- 86%|████████▌ | 214/249 [00:37<00:06,  5.66it/s][A
- 86%|████████▋ | 215/249 [00:37<00:06,  5.66it/s][A
- 87%|████████▋ | 216/249 [00:37<00:05,  5.66it/s][A
- 87%|████████▋ | 217/249 [00:38<00:05,  5.66it/s][A
- 88%|████████▊ | 218/249 [00:38<00:05,  5.66it/s][A
- 88%|████████▊ | 219/249 [00:38<00:05,  5.66it/s][A
- 88%|████████▊ | 220/249 [00:38<00:05,  5.66it/s][A
- 89%|████████▉ | 221/249 [00:38<00:04,  5.65it/s][A
- 89%|████████▉ | 222/249 [00:39<00:04,  5.66it/s][A
- 90%|████████▉ | 223/249 [00:39<00:04,  5.66it/s][A
- 90%|████████▉ | 224/249 [00:39<00:04,  5.66it/s][A
- 90%|█████████ | 225/249 [00:39<00:04,  5.66it/s][A
- 91%|█████████ | 226/249 [00:39<00:04,  5.67it/s][A
- 91%|█████████ | 227/249 [00:39<00:03,  5.66it/s][A
- 92%|█████████▏| 228/249 [00:40<00:03,  5.66it/s][A
- 92%|█████████▏| 229/249 [00:40<00:03,  5.66it/s][A
- 92%|█████████▏| 230/249 [00:40<00:03,  5.66it/s][A
- 93%|█████████▎| 231/249 [00:40<00:03,  5.66it/s][A
- 93%|█████████▎| 232/249 [00:40<00:03,  5.65it/s][A
- 94%|█████████▎| 233/249 [00:40<00:02,  5.66it/s][A
- 94%|█████████▍| 234/249 [00:41<00:02,  5.66it/s][A
- 94%|█████████▍| 235/249 [00:41<00:02,  5.66it/s][A
- 95%|█████████▍| 236/249 [00:41<00:02,  5.66it/s][A
- 95%|█████████▌| 237/249 [00:41<00:02,  5.66it/s][A
- 96%|█████████▌| 238/249 [00:41<00:01,  5.66it/s][A
- 96%|█████████▌| 239/249 [00:42<00:01,  5.66it/s][A
- 96%|█████████▋| 240/249 [00:42<00:01,  5.67it/s][A
- 97%|█████████▋| 241/249 [00:42<00:01,  5.66it/s][A
- 97%|█████████▋| 242/249 [00:42<00:01,  5.66it/s][A
- 98%|█████████▊| 243/249 [00:42<00:01,  5.66it/s][A
- 98%|█████████▊| 244/249 [00:42<00:00,  5.67it/s][A
- 98%|█████████▊| 245/249 [00:43<00:00,  5.67it/s][A
- 99%|█████████▉| 246/249 [00:43<00:00,  5.66it/s][A
- 99%|█████████▉| 247/249 [00:43<00:00,  5.66it/s][A
-100%|█████████▉| 248/249 [00:43<00:00,  5.67it/s][A
-100%|██████████| 249/249 [00:43<00:00,  5.69it/s][A                                               
-                                                 [A100%|██████████| 40/40 [46:53<00:00, 69.20s/it]
-100%|██████████| 249/249 [00:43<00:00,  5.69it/s][A
-                                                 [A
-
-Training completed. Do not forget to share your model on huggingface.co/models =)
-
-
-                                               100%|██████████| 40/40 [46:53<00:00, 69.20s/it]100%|██████████| 40/40 [46:53<00:00, 70.35s/it]
-Saving model checkpoint to prompt_output/Mistral-7B-Instruct-v0.3/ultrafeedback
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14b221d5ed10>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"), '(Request ID: 8be66bf1-7310-437c-8a21-810a88566d56)') - silently ignoring the lookup for the file config.json in mistralai/Mistral-7B-Instruct-v0.3.
-  warnings.warn(
-/localscratch/taraghi.34938928.0/LLM/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in mistralai/Mistral-7B-Instruct-v0.3 - will assume that the vocabulary was not modified.
-  warnings.warn(
-tokenizer config file saved in prompt_output/Mistral-7B-Instruct-v0.3/ultrafeedback/tokenizer_config.json
-Special tokens file saved in prompt_output/Mistral-7B-Instruct-v0.3/ultrafeedback/special_tokens_map.json
-{'eval_loss': 1.8522990942001343, 'eval_runtime': 43.9764, 'eval_samples_per_second': 5.662, 'eval_steps_per_second': 5.662, 'epoch': 0.99}
-{'train_runtime': 2813.8212, 'train_samples_per_second': 1.837, 'train_steps_per_second': 0.014, 'train_loss': 1.8565826892852784, 'epoch': 0.99}
-Model Saved to  prompt_output/Mistral-7B-Instruct-v0.3/ultrafeedback
-***** train metrics *****
-  epoch                    =       0.99
-  train_loss               =     1.8566
-  train_runtime            = 0:46:53.82
-  train_samples            =      20785
-  train_samples_per_second =      1.837
-  train_steps_per_second   =      0.014
