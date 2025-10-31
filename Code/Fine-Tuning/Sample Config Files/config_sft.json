@@ -1,0 +1,58 @@
+  {
+    "model_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "data_dir": "/abs/path/to/<ultrafeedback_binarized|ultrachat_200k>_load_from_disk",
+    "output_dir": "LoRA_output/Meta-Llama-3-8B-Instruct/ultrafeedback_binarized/lr_2e-5/1e",
+    "train_split": "train_sft",
+    "eval_split": "test_sft",
+  
+    "seed": 42,
+    "train_percentage": null,
+  
+    "lora": {
+      "r": 4,
+      "lora_alpha": 16,
+      "lora_dropout": 0.1,
+      "bias": "none",
+      "task_type": "CAUSAL_LM",
+      "target_modules": ["q_proj", "v_proj"]
+    },
+    "ia3": {
+      "peft_type": "IA3",
+      "task_type": "CAUSAL_LM",
+      "target_modules": ["q_proj", "v_proj", "down_proj"],
+      "feedforward_modules": ["down_proj"]
+    },
+    "prompt_tuning": {
+      "task_type": "CAUSAL_LM",
+      "num_virtual_tokens": 20,
+      "prompt_tuning_init": "random"
+    },
+    "p_tuning": {
+      "peft_type": "P_TUNING",
+      "num_virtual_tokens": 20,
+      "task_type": "CAUSAL_LM"
+    },
+  
+    "trainer": {
+      "do_eval": true,
+      "evaluation_strategy": "epoch",
+      "gradient_accumulation_steps": 128,
+      "gradient_checkpointing": true,
+      "gradient_checkpointing_kwargs": {"use_reentrant": false},
+      "learning_rate": 2.0e-05,
+      "log_level": "info",
+      "logging_steps": 5,
+      "save_steps": 50,
+      "save_total_limit": 3,
+      "logging_strategy": "steps",
+      "lr_scheduler_type": "cosine",
+      "max_steps": -1,
+      "num_train_epochs": 1,
+      "overwrite_output_dir": true,
+      "per_device_eval_batch_size": 1,
+      "per_device_train_batch_size": 1,
+      "save_strategy": "no",
+      "seed": 42
+    }
+  }
+  
