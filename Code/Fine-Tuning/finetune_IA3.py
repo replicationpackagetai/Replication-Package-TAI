@@ -222,7 +222,7 @@ def require_keys(cfg: Dict[str, Any], keys):
 def run_sft(cfg: Dict[str, Any]):
     # Required keys for SFT
     require_keys(cfg, ["model_name","data_dir","output_dir","train_split"])
-    set_seed_opt(cfg.get("seed"))
+    set_seed_opt(cfg.get("seed", 42))
 
     tokenizer = build_tokenizer(cfg["model_name"], cfg)
     model = build_model(cfg["model_name"])
@@ -231,13 +231,21 @@ def run_sft(cfg: Dict[str, Any]):
     raw = load_from_disk(cfg["data_dir"])
     if not isinstance(raw, DatasetDict):
         raise ValueError("SFT expects a DatasetDict.")
+    pct = cfg.get("train_percentage")
+    if pct is None:
+        pct = infer_default_train_pct(cfg.get("data_dir", ""), task="sft")
+
+    if pct:
+        raw = sample_split(raw, split=train_split, percentage=pct, seed=seed)
+
+
     ds = raw.map(lambda ex: map_for_sft(ex, tokenizer, cfg.get("gemma_safe", False)),
                  num_proc=cfg.get("num_proc", None),
                  desc="Applying chat template (SFT)")
 
     train_split = cfg["train_split"]
     eval_split = cfg.get("eval_split", None)
-
+    
     trainer_kwargs = filter_kwargs(allowed_training_args(), cfg.get("trainer", {}))
     trainer_kwargs["output_dir"] = cfg["output_dir"]
 
@@ -266,7 +274,7 @@ def run_sft(cfg: Dict[str, Any]):
 def run_dpo(cfg: Dict[str, Any]):
     # Required keys for DPO
     require_keys(cfg, ["model_name","data_dir","output_dir","train_split"])
-    set_seed_opt(cfg.get("seed"))
+    set_seed_opt(cfg.get("seed", 42))
 
     tokenizer = build_tokenizer(cfg["model_name"], cfg)
     model = build_model(cfg["model_name"])
@@ -276,6 +284,13 @@ def run_dpo(cfg: Dict[str, Any]):
     raw = load_from_disk(cfg["data_dir"])
     if not isinstance(raw, DatasetDict):
         raise ValueError("DPO expects a DatasetDict.")
+    pct = cfg.get("train_percentage")
+    if pct is None:
+        pct = infer_default_train_pct(cfg.get("data_dir", ""), task="dpo")
+
+    if pct:
+        raw = sample_split(raw, split=train_split, percentage=pct, seed=seed)
+
     ds = raw.map(lambda ex: map_for_dpo(ex, tokenizer, cfg.get("gemma_safe", False)),
                  num_proc=cfg.get("num_proc", None),
                  desc="Applying chat template (DPO)")
