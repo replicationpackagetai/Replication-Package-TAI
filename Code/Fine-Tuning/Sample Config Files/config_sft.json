@@ -6,7 +6,7 @@
     "eval_split": "test_sft",
   
     "seed": 42,
-    "train_percentage": null,
+    "train_percentage": 34,
   
     "lora": {
       "r": 4,
