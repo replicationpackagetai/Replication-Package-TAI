@@ -25,6 +25,3 @@ __pycache__/
 # large generated
 Data/HuggingFace_Models/models_info_15_Aug_2024.json
 Data/HuggingFace_Models/models_info_PEFT.json
-Data/CodeAlpaca/Round1/outputs_codealpaca.zip
-Data/CodeAlpaca/Round2/outputs_codealpaca.zip
-Data/CodeAlpaca/Round3/outputs_codealpaca.zip
