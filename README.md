@@ -19,3 +19,15 @@ This repository contains the replication materials for the anonymous submission 
   - `Utility_test_datasets/`: test subsets used for utility evaluation.
   - `CodeAlpaca/`: benchmark outputs, moderation outputs, archived fine-tuned artifacts, and per-round summaries for the benign coding-task experiments.
   - `Statistical_Tests_results/`: statistical outputs for both the main study and the CodeAlpaca experiments, including averaged summaries across rounds.
+
+
+## Revision 2 Additions
+
+The `Data/Revision2/`, `Code/Revision2/`, and `Figures/Revision2/` directories contain the compact materials added for the second revision.
+
+- `Data/Revision2/PEFT_Hyperparameter_Sensitivity/` contains the averaged PEFT-setting sensitivity summaries and paired statistical-test outputs for LoRA rank, Prompt-Tuning and P-Tuning virtual-token counts, and IA3 target-module placement.
+- `Data/Revision2/GPT41_Safety_Judge/` contains the GPT-4.1 alternative safety-judge outputs and aggregate agreement/statistical summaries against LLaMA-Guard 2.
+- `Code/Revision2/` contains portable scripts for recomputing the PEFT sensitivity tests and GPT-4.1 judge analysis. These scripts use command-line inputs and environment variables rather than cluster-specific paths.
+- `Figures/Revision2/` contains the final figures used for the new revision appendices.
+
+Large fine-tuned adapter artifacts for the additional PEFT settings are not included in this compact update. They can be added separately through Git LFS if needed.

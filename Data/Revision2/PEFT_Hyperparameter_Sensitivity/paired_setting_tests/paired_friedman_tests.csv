@@ -1,0 +1,16 @@
+peft_method,peft_label,metric,metric_label,test,settings,n_conditions,n_blocks,block_unit,matched_blocks,statistic,p_value,kendalls_w,significant_p_lt_0.05
+lora,LoRA,delta_safe_ratio,Change in Safety,Friedman,r4 vs r8 vs r16,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,1.5,0.4723665527410149,0.1875,False
+lora,LoRA,delta_accuracy_ambig,Change in Accuracy AMB,Friedman,r4 vs r8 vs r16,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,0.0,1.0,0.0,False
+lora,LoRA,delta_accuracy_disambig,Change in Accuracy DIS,Friedman,r4 vs r8 vs r16,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,1.5,0.4723665527410149,0.1875,False
+lora,LoRA,delta_bias_score_amb_abs,Change in Bias Score AMB,Friedman,r4 vs r8 vs r16,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,1.5,0.4723665527410149,0.1875,False
+lora,LoRA,delta_bias_score_dis_abs,Change in Bias Score DIS,Friedman,r4 vs r8 vs r16,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,6.5,0.03877420783172202,0.8125,True
+prompt,Prompt Tuning,delta_safe_ratio,Change in Safety,Friedman,v20 vs v50 vs v100,3,3,base_model_after_3_round_average,Mistral;Gemma;Qwen,0.6666666666666643,0.71653131057379,0.11111111111111072,False
+prompt,Prompt Tuning,delta_accuracy_ambig,Change in Accuracy AMB,Friedman,v20 vs v50 vs v100,3,3,base_model_after_3_round_average,Mistral;Gemma;Qwen,4.666666666666664,0.09697196786440515,0.7777777777777773,False
+prompt,Prompt Tuning,delta_accuracy_disambig,Change in Accuracy DIS,Friedman,v20 vs v50 vs v100,3,3,base_model_after_3_round_average,Mistral;Gemma;Qwen,6.0,0.04978706836786395,1.0,True
+prompt,Prompt Tuning,delta_bias_score_amb_abs,Change in Bias Score AMB,Friedman,v20 vs v50 vs v100,3,3,base_model_after_3_round_average,Mistral;Gemma;Qwen,2.0,0.36787944117144245,0.3333333333333333,False
+prompt,Prompt Tuning,delta_bias_score_dis_abs,Change in Bias Score DIS,Friedman,v20 vs v50 vs v100,3,3,base_model_after_3_round_average,Mistral;Gemma;Qwen,0.0,1.0,0.0,False
+ptuning,P-Tuning,delta_safe_ratio,Change in Safety,Friedman,v20 vs v50 vs v100,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,1.5,0.4723665527410149,0.1875,False
+ptuning,P-Tuning,delta_accuracy_ambig,Change in Accuracy AMB,Friedman,v20 vs v50 vs v100,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,0.5,0.7788007830714049,0.0625,False
+ptuning,P-Tuning,delta_accuracy_disambig,Change in Accuracy DIS,Friedman,v20 vs v50 vs v100,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,2.0,0.36787944117144245,0.25,False
+ptuning,P-Tuning,delta_bias_score_amb_abs,Change in Bias Score AMB,Friedman,v20 vs v50 vs v100,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,1.5,0.4723665527410149,0.1875,False
+ptuning,P-Tuning,delta_bias_score_dis_abs,Change in Bias Score DIS,Friedman,v20 vs v50 vs v100,3,4,base_model_after_3_round_average,Mistral;LLaMA;Gemma;Qwen,3.5,0.1737739434504451,0.4375,False
