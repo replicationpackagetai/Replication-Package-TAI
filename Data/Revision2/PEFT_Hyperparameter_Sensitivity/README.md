@@ -16,3 +16,7 @@ Files:
 - `ia3_target_sensitivity/`: summary and paired tests for IA3 target-module placement.
 
 The corresponding portable analysis script is `Code/Revision2/peft_sensitivity_tests.py`.
+
+Large archives tracked with Git LFS:
+- `full_benchmark_outputs.zip`: full Round1-Round3 benchmark CSV outputs for the sensitivity runs.
+- `final_adapter_outputs.zip`: sanitized final adapter artifacts for the sensitivity runs. Intermediate checkpoints, optimizer states, scheduler states, cluster scripts, logs, and local cache paths are excluded.

@@ -30,4 +30,4 @@ The `Data/Revision2/`, `Code/Revision2/`, and `Figures/Revision2/` directories c
 - `Code/Revision2/` contains portable scripts for recomputing the PEFT sensitivity tests and GPT-4.1 judge analysis. These scripts use command-line inputs and environment variables rather than cluster-specific paths.
 - `Figures/Revision2/` contains the final figures used for the new revision appendices.
 
-Large fine-tuned adapter artifacts for the additional PEFT settings are not included in this compact update. They can be added separately through Git LFS if needed.
+The full Revision 2 benchmark-output archive and sanitized final adapter archive are provided under `Data/Revision2/PEFT_Hyperparameter_Sensitivity/` and are tracked with Git LFS.
